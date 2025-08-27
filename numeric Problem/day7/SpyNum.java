@@ -1,3 +1,4 @@
+package day7;
 import java.util.Scanner;
 class Spy
 {
@@ -9,12 +10,12 @@ class Spy
 		int sum=0;
 		int multi=1;
 		int rem=0;
-		while (nun>0)
+		while (num>0)
 		{
 			rem=num%10;
 			sum=sum+rem;
 			multi=multi*rem;
-			rem=num/10;
+			num=num/10;
 		}
 
 		if (sum==multi)

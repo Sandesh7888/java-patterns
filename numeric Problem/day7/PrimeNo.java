@@ -1,11 +1,14 @@
+package day7;
 import java.util.Scanner;
 class PrimeNo
 {
 	public boolean isPrime(int num){
 
-		int count++;
+		int count=0;
 		for(int i=0;i<num;i++){
-			
+			if(num%i==0){
+				count++;
+			}			
 		}
 		return false;
 	}

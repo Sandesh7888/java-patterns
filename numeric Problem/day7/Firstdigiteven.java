@@ -1,4 +1,5 @@
-import java.util.Scanner();
+package day7;
+import java.util.*;
 class Firstdigiteven 
 {
 	public static void main(String[] args) 
