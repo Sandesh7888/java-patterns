@@ -1,16 +1,17 @@
+package day7;
 public class P8 
 {
-	static void num();
+	static void num()
 	{
 		int a=8;
 		int b=3;
 		if (a%b==0)
 		{
-			System.out.printl("T");
+			System.out.println("T");
 		}
 		else{
-			System.out.printl("F");
-			
+			System.out.println("F");
+
 		}
 	}
 	

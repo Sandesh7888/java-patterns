@@ -1,3 +1,4 @@
+package day7;
 class EvenN10 
 {
 	public static void main(String[] args) 

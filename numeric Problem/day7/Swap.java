@@ -1,3 +1,4 @@
+package day7;
 class Swap 
 {
 	public static void main(String[] args) 

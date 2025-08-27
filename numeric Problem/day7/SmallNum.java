@@ -1,3 +1,4 @@
+package day7;
 class SmallNum 
 {
 	public static void main(String[] args) 

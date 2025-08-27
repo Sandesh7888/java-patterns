@@ -1,3 +1,4 @@
+package day7;
 class Factorial 
 {
 	public static void main(String[] args) 

@@ -1,3 +1,4 @@
+package day7;
 class P2 
 {
 	public static void main(String[] args) 

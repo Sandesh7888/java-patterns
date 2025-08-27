@@ -1,3 +1,4 @@
+package day7;
 class DivisibleBy7Not4 
 {
 	public static void main(String[] args) 

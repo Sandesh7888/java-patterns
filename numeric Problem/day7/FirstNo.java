@@ -1,3 +1,4 @@
+package day7;
 import java.util.Scanner;
 class FirstNo 
 {

@@ -1,3 +1,4 @@
+package day7;
 class P6 
 {
 	public static void small(int a)

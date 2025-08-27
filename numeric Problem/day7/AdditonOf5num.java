@@ -1,3 +1,4 @@
+package day7;
 class AdditonOf5num 
 {
 	public static void main(String[] args) 

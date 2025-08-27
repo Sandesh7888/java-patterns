@@ -1,3 +1,4 @@
+package day7;
 class P7 //odd even number 
 {
 

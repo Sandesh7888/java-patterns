@@ -1,3 +1,4 @@
+package day10;
 import java.util.Scanner;
 class BuzzNo
 {

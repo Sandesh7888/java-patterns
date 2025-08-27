@@ -1,3 +1,4 @@
+package day7;
 class LastNo 
 {
 	public static void main(String[] args) 

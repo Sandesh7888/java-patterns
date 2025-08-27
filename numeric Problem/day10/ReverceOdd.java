@@ -1,3 +1,4 @@
+package day10;
 
 class ReverceOdd
 {

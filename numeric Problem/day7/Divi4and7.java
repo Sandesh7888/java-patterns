@@ -1,3 +1,4 @@
+package day7;
 class Divi4and7 
 {
 	public static void main(String[] args) 
