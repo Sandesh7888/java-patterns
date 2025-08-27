@@ -1,0 +1,20 @@
+class P6 
+{
+	public static void small(double a)
+	{
+		for(double i=1 ; i<=64 ; i++)
+		{
+			double b=a*a;
+			
+			System.out.println("value "+a+"is " + b);
+			a=b;
+			
+
+		}
+		
+	}
+	public static void main(String[] args) 
+	{
+		small(2);
+	}
+}

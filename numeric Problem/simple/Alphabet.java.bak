@@ -1,0 +1,9 @@
+class Alphabet
+{
+	public static void main(String[] args) 
+	{
+		char Alpha = 'y';
+		String res = Alpha>= 'a'&& Alpha<='z' || Alpha>= 'A'&& Alpha<='Z'  ? "Alphabet" : "not alphabet"; 
+		System.out.println(res);
+	}
+}

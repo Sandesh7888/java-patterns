@@ -1,0 +1,19 @@
+class P3 
+{
+	public static void main(String[] args) 
+	{
+		String name = "Sandesh";
+		int age=22;
+		double cgpa =8.90;
+		String DOB ="25may";
+		char key= 'K';
+		boolean a = ture ;
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(cgpa);
+		System.out.println(DOB);
+		System.out.println(key);
+		System.out.println(a);
+		
+	}
+}

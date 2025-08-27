@@ -1,0 +1,14 @@
+class P7 //odd even number 
+{
+
+	public static void main(String[] args) 
+	{
+		int a=12;
+		
+		System.out.println ((a%2==0) ?	"it is even no" : "it is odd no";
+	   
+
+    
+		
+	}
+}

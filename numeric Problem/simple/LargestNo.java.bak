@@ -1,0 +1,38 @@
+class LargestNo 
+{
+	public static void main(String[] args) 
+	{
+		int a=300,b=300,c=32,d=-1,e=12;
+
+		int res1 =a>=b?a:b;
+		int res2 =c>=d?c:d;
+		int res3 =res1>=res2?res1:res2;
+		int res4 =res3>=e?res3:e;
+
+		System.out.println(e);
+		System.out.println("-----------------------------------------");
+
+        int value = a>=b&&a>=c&&a>=d&&a>=e ? a:b>=c&&b>=d&&b>=e ? b:c>=d && c>=e ? c:d>=e ? d:e ;
+		System.out.println(value);
+
+		System.out.println("-----------------------------------------");
+
+		if (a>=b && a>=c && a>=d && a>=e)
+		{
+			System.out.println("it is Largest number "+a);
+		}else if (b>=c && b>=d && b>=e)
+		{
+			System.out.println("it is Largest number "+b);
+		}else if (c>=d && c>=e)
+		{
+			System.out.println("it is Largest number "+c);
+		}else if (d>=e)
+		{
+			System.out.println("it is Largest number "+d);
+		}
+		else{
+			System.out.println("it is Largest number "+e);
+		}
+
+	}
+}

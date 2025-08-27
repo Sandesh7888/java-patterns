@@ -1,0 +1,31 @@
+package PatternNumber;
+/*
+
+*     *
+*     *
+*     *
+*     *
+
+*/
+class S_square4
+{
+	public static void main(String[] args) 
+	{
+		int n=4;
+		for (int a=1; a<=n;a++ )
+		{
+			for (int b=1;b<=4 ;b++ )
+			{
+				if (b==1 || b==4)
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+}

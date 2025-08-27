@@ -1,0 +1,32 @@
+package PatternNumber;
+/*   
+     
+* * * * *  =>row
+  *   * 
+    *   
+  *   * 
+* * * * * 
+
+*/
+class Star_Grid4
+{
+	public static void main(String[] args) 
+	{
+		int n=15;
+		for (int a=1; a<=n;a++ )
+		{												   
+			for (int b=1;b<=n ;b++ )        			   
+			{         									   
+				if (a==b || a+b==n+1 || a==1 ||a==n )          
+				{									        
+					System.out.print("* ");
+				}else{								         	        
+					System.out.print("  ");			         
+				}
+													           
+			}
+			System.out.println();
+		}
+	}
+}
+

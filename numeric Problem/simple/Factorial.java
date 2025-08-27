@@ -1,0 +1,16 @@
+class Factorial 
+{
+	public static void main(String[] args) 
+	{
+		int multy=1 ;
+		for (int p=1;p<=5 ;p++ )
+		{
+			
+			multy=multy*p;
+			
+		}
+		System.out.println(multy);
+		
+	}
+}
+//1*2*3*4*5

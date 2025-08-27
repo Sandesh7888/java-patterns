@@ -1,0 +1,13 @@
+class P5 
+{
+	public static void main(String[] args) 
+	{
+		char p='A';
+		char q='A';
+		char r='A';
+
+		int b=30;
+		double a=b;
+		System.out.println(a);
+	}
+}

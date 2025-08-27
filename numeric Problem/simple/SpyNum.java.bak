@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Spy
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter number");
+		int num =sc.nextInt();
+		int sum=0;
+		int multi=1;
+		int rem=0;
+		while (nun>0)
+		{
+			rem=num%10;
+			sum=sum+rem;
+			multi=multi*rem;
+			rem=num/10;
+		}
+
+		if ()
+		{
+		}
+
+
+		System.out.println("Spy number");
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class SmallNumber
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter number");
+		int num =sc.nextInt();//123
+        int rem=0;
+		int small=9;
+		while (num>0)
+		{
+			rem=num%10;
+			if (small>rem)
+			{
+				small=rem;
+			}
+			num=num/10;
+			
+		}
+		System.out.println("Small digitis : "+small);
+	}
+}

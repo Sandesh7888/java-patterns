@@ -1,0 +1,16 @@
+class DivisibleBy7Not4 
+{
+	public static void main(String[] args) 
+	{
+		int a=1;
+		while (a<=100)
+		{
+			String res1 = a%7==0 && a%4!=0 ? "yes" :"NO";
+            System.out.println(a+"="+res1);
+			a++;
+		}
+                  
+	}
+}
+
+			

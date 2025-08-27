@@ -1,0 +1,21 @@
+class AdditonOf5num 
+{
+	public static void main(String[] args) 
+	{
+		int add=0;
+		for (int a=1;a<=5 ;a++ )
+		{
+			add =a+add;
+			System.out.println(add);
+
+		}
+		do
+		{
+			add =a+add;
+			
+		}
+		while (a<=5);
+		System.out.println(add);
+		
+	}
+}
